@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.plyr.plyr--audio {
+    width: 100%;
+}
+
+.bg-c2dbc6 {
+    background-color: #c2dbc6;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+
+.pagination a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 4px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #333;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
+
+.pagination .active {
+    color: red;
+}
+
+.border-dashed {
+    border-style: dashed;
+}
+
+.h-banner {
+    height: calc(100vh - 74px);
+}
+
+/* Gạch ngang pagination */
+.swiper-pagination-bullet {
+    display: inline-block;
+    width: 48px;
+    height: 4px;
+    background: #e5e7eb; /* Tailwind gray-200 */
+    opacity: 1;
+    margin: 0 6px;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+    background: #2563eb; /* Tailwind blue-600 */
+}
+
+.swiper-slide {
+    border-radius: 0.75rem !important; /* tương đương rounded-xl */
+}
+
+.bg-blue-50 {
+    background-color: #eff6ff; /* Tailwind's blue-50 */
+}
+
+.bg-orange-50 {
+    background-color: #fff7ed; /* Tailwind's orange-50 */
+}
+
+/* Bạn có thể thêm các màu khác nếu cần */
+.bg-green-50 {
+    background-color: #f0fdf4;
+}
+
+.bg-yellow-50 {
+    background-color: #fefce8;
+}
