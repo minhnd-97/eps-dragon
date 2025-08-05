@@ -21,9 +21,9 @@ class NewsController extends Controller
     // Show a single news item
     public function show($slug)
     {
-        $newsItem = News::with('type')->where('slug', $slug)->firstOrFail();
+        $news = News::with('type')->where('slug', $slug)->firstOrFail();
 
-        return view('news.show', compact('newsItem'));
+        return view('pages.news.show', compact('news'));
     }
 
     // Show news by type

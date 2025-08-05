@@ -49,3 +49,8 @@ Breadcrumbs::for('contact.form', function (BreadcrumbTrail $trail) {
     $trail->parent('home');
     $trail->push('Liên hệ', route('contact.form'));
 });
+
+Breadcrumbs::for('news.show', function (BreadcrumbTrail $trail, $news) {
+    $trail->parent('home');
+    $trail->push('Tin tức', route('news.show', $news));
+});

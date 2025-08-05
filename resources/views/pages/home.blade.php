@@ -40,7 +40,7 @@
                     Tầm nhìn & Giá trị
                 </h2>
                 <p class="text-gray-700 mb-4 leading-relaxed">
-                    EPS Long Đặng là doanh nghiệp hàng đầu trong sản xuất xốp EPS, sử dụng công nghệ hiện đại để đảm bảo chất lượng sản phẩm từ quy trình sản xuất đến tay người tiêu dùng.
+                    EPS Long Đằng là doanh nghiệp hàng đầu trong sản xuất xốp EPS, sử dụng công nghệ hiện đại để đảm bảo chất lượng sản phẩm từ quy trình sản xuất đến tay người tiêu dùng.
                     Chúng tôi đã tham gia vào nhiều dự án trên khắp cả nước, từ khu vực Bắc đến Nam, luôn đặt sự hài lòng của khách hàng lên hàng đầu.
                 </p>
                 <p class="text-gray-700 mb-4 leading-relaxed">
@@ -50,7 +50,7 @@
                     Đội ngũ nhân sự của chúng tôi luôn đề cao giá trị trung thực, trách nhiệm và sáng tạo. Mỗi sản phẩm đều được kiểm định kỹ lưỡng, đáp ứng các tiêu chuẩn chất lượng khắt khe nhất trong ngành.
                 </p>
                 <p class="text-gray-700 leading-relaxed">
-                    Chúng tôi tin rằng sự phát triển bền vững chỉ đạt được khi có sự hài hòa giữa lợi ích doanh nghiệp, khách hàng và cộng đồng. Do đó, EPS Long Đặng luôn cam kết đồng hành lâu dài cùng đối tác và xây dựng giá trị thật cho xã hội.
+                    Chúng tôi tin rằng sự phát triển bền vững chỉ đạt được khi có sự hài hòa giữa lợi ích doanh nghiệp, khách hàng và cộng đồng. Do đó, EPS Long Đằng luôn cam kết đồng hành lâu dài cùng đối tác và xây dựng giá trị thật cho xã hội.
                 </p>
             </div>
         </div>

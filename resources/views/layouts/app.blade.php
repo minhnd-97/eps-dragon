@@ -28,7 +28,12 @@
               d="M3 5a2 2 0 012-2h3.28a1 1 0 01.95.68l1.04 3.12a1 1 0 01-.27 1.06L9.34 9.34a11.05 11.05 0 005.32 5.32l1.48-1.48a1 1 0 011.06-.27l3.12 1.04a1 1 0 01.68.95V19a2 2 0 01-2 2h-1C9.163 21 3 14.837 3 7V6a2 2 0 012-1z"/>
     </svg>
 </a>
-
+<!-- Floating Zalo Button -->
+<a href="https://zalo.me/0962918988"
+   class="fixed bottom-20 right-6 z-50 bg-white rounded-full shadow-lg p-4 hover:bg-blue-100 transition"
+   title="Chat Zalo với chúng tôi">
+    <img src="{{ asset("static/zalo-icon.png") }}" alt="Zalo" class="h-6 w-6">
+</a>
 
 <!-- Header -->
 @include('layouts.partials.header')
