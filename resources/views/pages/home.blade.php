@@ -7,10 +7,10 @@
     <div class="swiper mySwiper rounded-lg shadow-lg">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
-                <img src="{{ asset('static/banner.png') }}" class="w-full h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[1000px] object-cover" alt="Banner 1">
+                <img src="{{ asset('static/banner_1.png') }}" class="w-full h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[1000px] object-cover" alt="Banner 1">
             </div>
             <div class="swiper-slide">
-                <img src="{{ asset('static/banner.png') }}" class="w-full h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[1000px] object-cover" alt="Banner 1">
+                <img src="{{ asset('static/banner_1.png') }}" class="w-full h-[300px] md:h-[400px] lg:h-[500px] xl:h-[600px] 2xl:h-[1000px] object-cover" alt="Banner 1">
             </div>
         </div>
 
