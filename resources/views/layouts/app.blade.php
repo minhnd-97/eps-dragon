@@ -18,6 +18,17 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="bg-gray-50 text-gray-900">
+<!-- Floating Call Button -->
+<a href="tel:0962918988"
+   class="fixed bottom-6 right-6 z-50 bg-white rounded-full shadow-lg p-4 hover:bg-blue-100 transition"
+   title="Gọi ngay: 0962 918 988">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none"
+         viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round"
+              d="M3 5a2 2 0 012-2h3.28a1 1 0 01.95.68l1.04 3.12a1 1 0 01-.27 1.06L9.34 9.34a11.05 11.05 0 005.32 5.32l1.48-1.48a1 1 0 011.06-.27l3.12 1.04a1 1 0 01.68.95V19a2 2 0 01-2 2h-1C9.163 21 3 14.837 3 7V6a2 2 0 012-1z"/>
+    </svg>
+</a>
+
 
 <!-- Header -->
 @include('layouts.partials.header')

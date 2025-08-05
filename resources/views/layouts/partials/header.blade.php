@@ -76,6 +76,10 @@
                                 đối tác</a>
                             <a href="{{ route('admin.services.index') }}"
                                class="block px-4 py-2 hover:bg-gray-100">Quản lý dịch vụ</a>
+                            <a href="{{ route('admin.products.index') }}"
+                               class="block px-4 py-2 hover:bg-gray-100">Quản lý sản phẩm</a>
+                            <a href="{{ route('admin.news.index') }}"
+                               class="block px-4 py-2 hover:bg-gray-100">Quản lý tin tức</a>
                         @endif
                     </div>
                 </div>

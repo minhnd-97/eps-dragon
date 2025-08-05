@@ -86,7 +86,7 @@
                     <h2 class="text-2xl md:text-3xl font-bold text-gray-800">
                         {{ $category->name }}
                     </h2>
-                    <a href="#"
+                    <a href="{{ route('products.index', ['category' => $category->slug]) }}"
                        class="text-blue-600 hover:underline text-sm md:text-base">
                         Xem tất cả →
                     </a>
@@ -95,7 +95,7 @@
                 <!-- Danh sách sản phẩm -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     @foreach ($category->products->take(4) as $product)
-                        <div class="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-lg transition">
+                        <a href="{{ route('products.show', $product->id) }}" class="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-lg transition">
                             <img src="{{ asset('storage/' . $product->thumbnail) }}"
                                  alt="{{ $product->name }}"
                                  class="w-full h-48 object-cover">
@@ -107,7 +107,7 @@
                                     {{ Str::limit($product->description, 80) }}
                                 </p>
                             </div>
-                        </div>
+                        </a>
                     @endforeach
                 </div>
             </div>
