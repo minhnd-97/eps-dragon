@@ -9,11 +9,20 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\UserController as AdminUserController;
 use App\Http\Controllers\Admin\PartnerController as AdminPartnerController;
 
+Route::get('/lien-he', function () {
+    return view('pages.contact');
+})->name('contact.form');;
+
+Route::post('/lien-he', function () {
+    return back()->with('success', 'Cảm ơn bạn đã gửi thông tin!');
+})->name('contact.send');
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/gioi-thieu', [HomeController::class, 'introduction'])->name('introduction');
 Route::get('/san-pham', [ProductController::class, 'index'])->name('products.index');
 Route::get('/san-pham/{id}', [ProductController::class, 'show'])->name('products.show');
+Route::get('/ung-dung', [\App\Http\Controllers\NewsController::class, 'application'])->name('news.application');
+Route::get('/tin-tuc', [\App\Http\Controllers\NewsController::class, 'new'])->name('news.new');
 Route::get('/du-an', [\App\Http\Controllers\NewsController::class, 'product'])->name('news.product');
 Route::get('/news/{slug}', [\App\Http\Controllers\NewsController::class, 'show'])->name('news.show');
 

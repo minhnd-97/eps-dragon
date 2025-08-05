@@ -28,7 +28,24 @@ Breadcrumbs::for('products.show', function (BreadcrumbTrail $trail, $productId) 
 });
 
 // Trang sản phẩm (du-an)
+Breadcrumbs::for('news.application', function (BreadcrumbTrail $trail) {
+    $trail->parent('home');
+    $trail->push('Ứng dụng', route('news.application'));
+});
+
+// Trang sản phẩm (du-an)
+Breadcrumbs::for('news.new', function (BreadcrumbTrail $trail) {
+    $trail->parent('home');
+    $trail->push('Tin tức', route('news.new'));
+});
+
+// Trang sản phẩm (du-an)
 Breadcrumbs::for('news.product', function (BreadcrumbTrail $trail) {
     $trail->parent('home');
     $trail->push('Dự án', route('news.product'));
+});
+
+Breadcrumbs::for('contact.form', function (BreadcrumbTrail $trail) {
+    $trail->parent('home');
+    $trail->push('Liên hệ', route('contact.form'));
 });

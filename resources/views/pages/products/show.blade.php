@@ -38,7 +38,7 @@
                         <ul class="space-y-1">
                             <li><strong>Địa chỉ CS1:</strong> Nguyên Khê - Đông Anh</li>
                             <li><strong>Địa chỉ CS2:</strong> Trung Chính - Bắc Ninh</li>
-                            <li><strong>Hotline 1:</strong> <a href="tel:0962928988" class="text-blue-500 hover:underline">0962 928 988</a></li>
+                            <li><strong>Hotline 1:</strong> <a href="tel:0962918988" class="text-blue-500 hover:underline">0962 918 988</a></li>
                             <li><strong>Hotline 2:</strong> <a href="tel:0972696988" class="text-blue-500 hover:underline">0972 696 988</a></li>
                         </ul>
                     </div>

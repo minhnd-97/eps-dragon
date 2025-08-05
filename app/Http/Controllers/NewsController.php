@@ -37,6 +37,44 @@ class NewsController extends Controller
         return view('news.by-type', compact('news', 'type'));
     }
 
+    public function application()
+    {
+        $slug = 'ung-dung';
+        $type = NewsType::where('slug', $slug)->firstOrFail();
+
+        // Danh sách tin phân trang
+        $news = News::where('news_type_id', $type->id)
+            ->orderBy('created_at', 'desc')
+            ->paginate(6);
+
+        // 3 tin mới nhất (khác với phân trang, dùng get() và take(3))
+        $latestNews = News::where('news_type_id', $type->id)
+            ->orderBy('created_at', 'desc')
+            ->take(3)
+            ->get();
+
+        return view('pages.project', compact('news', 'latestNews', 'type'));
+    }
+
+    public function new()
+    {
+        $slug = 'tin-tuc';
+        $type = NewsType::where('slug', $slug)->firstOrFail();
+
+        // Danh sách tin phân trang
+        $news = News::where('news_type_id', $type->id)
+            ->orderBy('created_at', 'desc')
+            ->paginate(6);
+
+        // 3 tin mới nhất (khác với phân trang, dùng get() và take(3))
+        $latestNews = News::where('news_type_id', $type->id)
+            ->orderBy('created_at', 'desc')
+            ->take(3)
+            ->get();
+
+        return view('pages.project', compact('news', 'latestNews', 'type'));
+    }
+
     public function product()
     {
         $slug = 'du-an';
