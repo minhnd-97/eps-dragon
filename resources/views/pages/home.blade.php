@@ -93,9 +93,10 @@
                 </div>
 
                 <!-- Danh sách sản phẩm -->
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                    @foreach ($category->products->take(4) as $product)
-                        <a href="{{ route('products.show', $product->id) }}" class="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-lg transition">
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+                    @foreach ($category->products as $product)
+                        <a href="{{ route('products.show', $product->id) }}"
+                           class="bg-white shadow-md rounded-xl overflow-hidden hover:shadow-lg transition">
                             <img src="{{ asset('storage/' . $product->thumbnail) }}"
                                  alt="{{ $product->name }}"
                                  class="w-full h-48 object-cover">
