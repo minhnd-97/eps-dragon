@@ -9,13 +9,13 @@
                 <div>
                     <p class="text-lg font-bold mb-2">Chi nhánh TP. Hà Nội</p>
                     <p>📍 Lô 03.04 Cụm CN Nguyên Khê, Đông Anh, Hà Nội</p>
-                    <p>📞 0962 918 988 - 0972 696 988</p>
+                    <p>📞 097 269 6988</p>
                 </div>
 
                 <div>
                     <p class="text-lg font-bold mb-2">Chi nhánh TP. Bắc Ninh</p>
                     <p>📍 Trung Chính, Bắc Ninh</p>
-                    <p>📞 0962 918 988 - 0972 696 988</p>
+                    <p>📞 097 269 6988</p>
                 </div>
             </div>
 

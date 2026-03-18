@@ -21,7 +21,7 @@
 <!-- Floating Call Button -->
 <a href="tel:0962918988"
    class="fixed bottom-6 right-6 z-50 bg-white rounded-full shadow-lg p-4 hover:bg-blue-100 transition"
-   title="Gọi ngay: 0962 918 988">
+   title="Gọi ngay: 097 269 6988">
     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none"
          viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
         <path stroke-linecap="round" stroke-linejoin="round"
@@ -29,7 +29,7 @@
     </svg>
 </a>
 <!-- Floating Zalo Button -->
-<a href="https://zalo.me/0962918988"
+<a href="https://zalo.me/0972696988"
    class="fixed bottom-20 right-6 z-50 bg-white rounded-full shadow-lg p-4 hover:bg-blue-100 transition"
    title="Chat Zalo với chúng tôi">
     <img src="{{ asset("static/zalo-icon.png") }}" alt="Zalo" class="h-6 w-6">
